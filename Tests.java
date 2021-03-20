@@ -105,19 +105,6 @@ public class Tests {
     Device computer9 = new Device(new ProcessorX86(3.21, 3, 64), new Memory(new String[5]));
     Device computer10 = new Device(new ProcessorArm(3.31, 4, 32), new Memory(new String[7]));
 
-    public void setUp() {
-        computer1.save(dataForTest);
-        computer2.save(dataForTest);
-        computer3.save(dataForTest);
-        computer4.save(dataForTest);
-        computer5.save(dataForTest);
-        computer6.save(dataForTest);
-        computer7.save(dataForTest);
-        computer8.save(dataForTest);
-        computer9.save(dataForTest);
-        computer10.save(dataForTest);
-    }
-
     Device[] devices = new Device[]{computer1, computer2, computer3, computer4, computer5, computer6, computer7, computer8, computer9, computer10};
 
     @Test
